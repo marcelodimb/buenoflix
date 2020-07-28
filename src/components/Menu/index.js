@@ -6,7 +6,7 @@ import Button from '../Button';
 const Menu = () => (
     <nav className="Menu">
         <a href="/">
-            <img className="Logo" src={Logo} alt="AluraFlix logo" />
+            <img className="Logo" src={Logo} alt="BuenoFlix logo" />
         </a>
         <Button as="a" href="/" className="ButtonLink">Novo vídeo</Button>
     </nav>
