@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
+    z-index: 1;
 }
 .ButtonLink:hover,
 .ButtonLink:focus {
