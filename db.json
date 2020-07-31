@@ -18,5 +18,85 @@
             "descricao": "Vídeos contendo os principais filmes do momento",
             "cor": "orange"
         }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Programar Mais Rápido e Ser Mais Produtivo no Visual Studio Code (VSCode)",
+            "url": "https://www.youtube.com/watch?v=FCC2GbStmfc"
+        },
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Design UX/UI, Home Office, Dev em Cidade Pequena, Portfólio, Insegurança | #PR 11",
+            "url": "https://www.youtube.com/watch?v=RlK8nu_YErc"
+        },
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "TypeScript com NodeJS do jeito certo! | Diego Fernandes",
+            "url": "https://www.youtube.com/watch?v=aTf8QTjw4RE"
+        },
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Airflow 2.0: What to expect?",
+            "url": "https://www.youtube.com/watch?v=FLlO3QTIrUI"
+        },
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Data Science: Introdução a Ciência de Dados (Primeira aula prática programando em Python)",
+            "url": "https://www.youtube.com/watch?v=F608hzn_ygo"
+        },
+        {
+            "id": 1,
+            "categoriaId": 2,
+            "titulo": "3 TIPOS DE FAROFAS PARA O NATAL",
+            "url": "https://www.youtube.com/watch?v=UtPQEytHmjY"
+        },
+        {
+            "id": 1,
+            "categoriaId": 2,
+            "titulo": "O BOLO DE CHOCOLATE MAIS BOMBADO DO YOUTUBE | Receitas Internéticas",
+            "url": "https://www.youtube.com/watch?v=mp-StM0f4J8"
+        },
+        {
+            "id": 1,
+            "categoriaId": 2,
+            "titulo": "VOCÊ NUNCA MAIS VAI ERRAR NUMA MOUSSE DE CHOCOLATE",
+            "url": "https://www.youtube.com/watch?v=uFFJ0k0t77s"
+        },
+        {
+            "id": 1,
+            "categoriaId": 2,
+            "titulo": "Feijão tropeiro | Rodrigo Hilbert | Tempero de Família",
+            "url": "https://www.youtube.com/watch?v=c9HUne_dk3E"
+        },
+        {
+            "id": 1,
+            "categoriaId": 3,
+            "titulo": "Alta Frequencia (Frequency) - Trailer Legendado",
+            "url": "https://www.youtube.com/watch?v=dYAbP3xUtd0"
+        },
+        {
+            "id": 1,
+            "categoriaId": 3,
+            "titulo": "O conde de Monte Cristo trailer legendado pt br",
+            "url": "https://www.youtube.com/watch?v=X9F6Ssb7GHo"
+        },
+        {
+            "id": 1,
+            "categoriaId": 3,
+            "titulo": "O Corpo (El Cuerpo) - Trailer Legendado em Português - BR",
+            "url": "https://www.youtube.com/watch?v=ZhH90Eqhtbk"
+        },
+        {
+            "id": 1,
+            "categoriaId": 3,
+            "titulo": "Um Contratempo (Contratiempo) - Trailer - Legendado",
+            "url": "https://www.youtube.com/watch?v=4DTjlmNYMEo"
+        }
     ]
 }

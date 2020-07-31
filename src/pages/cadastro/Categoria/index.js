@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Template from '../../../components/Template';
 import FormField from '../../../components/FormField/index';
 import Button from '../../../components/Button/index';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -12,13 +13,9 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
-  const setValue = (key, value) => setValues({ ...values, [key]: value });
-  const handleChange = (e) => {
-    setValue(e.target.getAttribute('name'), e.target.value);
-  };
+  const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -44,7 +41,7 @@ function CadastroCategoria() {
       <form onSubmit={(e) => {
         e.preventDefault();
         setCategorias([...categorias, values]);
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
