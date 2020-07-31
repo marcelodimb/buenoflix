@@ -7,12 +7,12 @@ import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
 const Home = () => (
-  <div style={{ background: "#141414" }}>
+  <div style={{ background: '#141414' }}>
     <Menu />
     <BannerMain
       videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
       url={dadosIniciais.categorias[0].videos[0].url}
-      videoDescription={"Para transformar o Visual Studio Code de um editor de código simples para uma IDE é facinho facinho com as infinitas extensões disponíveis 😂 mas isso pode mais atrapalhar do que ajudar. Então esse vídeo é a minha busca em entender quais extensões VSCode vão me ajudar a programar mais rápido e ser mais produtivo."}
+      videoDescription="Para transformar o Visual Studio Code de um editor de código simples para uma IDE é facinho facinho com as infinitas extensões disponíveis 😂 mas isso pode mais atrapalhar do que ajudar. Então esse vídeo é a minha busca em entender quais extensões VSCode vão me ajudar a programar mais rápido e ser mais produtivo."
     />
     <Carousel
       ignoreFirstVideo
