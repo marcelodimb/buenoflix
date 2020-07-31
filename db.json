@@ -11,6 +11,12 @@
             "nome": "Gastronomia",
             "descricao": "Vídeos contendo as principais receitas do momento",
             "cor": "#00c86f"
+        },
+        {
+            "id": 3,
+            "nome": "Filmes",
+            "descricao": "Vídeos contendo os principais filmes do momento",
+            "cor": "orange"
         }
     ]
 }
