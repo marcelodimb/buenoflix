@@ -2,7 +2,7 @@
   "categorias": [
     {
       "titulo": "Tecnologia",
-      "cor": "#6BD1FF",
+      "cor": "#6bd1ff",
       "videos": [
         {
           "titulo": "Programar Mais Rápido e Ser Mais Produtivo no Visual Studio Code (VSCode)",
@@ -28,7 +28,7 @@
     },
     {
       "titulo": "Gastronomia",
-      "cor": "#00C86F",
+      "cor": "#00c86f",
       "videos": [
         {
           "titulo": "3 TIPOS DE FAROFAS PARA O NATAL",

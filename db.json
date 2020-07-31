@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Tecnologia",
+            "descricao": "Vídeos contendo as principais tecnologias do momento",
+            "cor": "#6bd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Gastronomia",
+            "descricao": "Vídeos contendo as principais receitas do momento",
+            "cor": "#00c86f"
+        }
+    ]
+}
