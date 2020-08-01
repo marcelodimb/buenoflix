@@ -1,102 +1,126 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Tecnologia",
-            "descricao": "Vídeos contendo as principais tecnologias do momento",
-            "cor": "#6bd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Gastronomia",
-            "descricao": "Vídeos contendo as principais receitas do momento",
-            "cor": "#00c86f"
-        },
-        {
-            "id": 3,
-            "nome": "Filmes",
-            "descricao": "Vídeos contendo os principais filmes do momento",
-            "cor": "orange"
-        }
-    ],
-    "videos": [
-        {
-            "id": 1,
-            "categoriaId": 1,
-            "titulo": "Programar Mais Rápido e Ser Mais Produtivo no Visual Studio Code (VSCode)",
-            "url": "https://www.youtube.com/watch?v=FCC2GbStmfc"
-        },
-        {
-            "id": 2,
-            "categoriaId": 1,
-            "titulo": "Design UX/UI, Home Office, Dev em Cidade Pequena, Portfólio, Insegurança | #PR 11",
-            "url": "https://www.youtube.com/watch?v=RlK8nu_YErc"
-        },
-        {
-            "id": 3,
-            "categoriaId": 1,
-            "titulo": "TypeScript com NodeJS do jeito certo! | Diego Fernandes",
-            "url": "https://www.youtube.com/watch?v=aTf8QTjw4RE"
-        },
-        {
-            "id": 4,
-            "categoriaId": 1,
-            "titulo": "Airflow 2.0: What to expect?",
-            "url": "https://www.youtube.com/watch?v=FLlO3QTIrUI"
-        },
-        {
-            "id": 5,
-            "categoriaId": 1,
-            "titulo": "Data Science: Introdução a Ciência de Dados (Primeira aula prática programando em Python)",
-            "url": "https://www.youtube.com/watch?v=F608hzn_ygo"
-        },
-        {
-            "id": 6,
-            "categoriaId": 2,
-            "titulo": "3 TIPOS DE FAROFAS PARA O NATAL",
-            "url": "https://www.youtube.com/watch?v=UtPQEytHmjY"
-        },
-        {
-            "id": 7,
-            "categoriaId": 2,
-            "titulo": "O BOLO DE CHOCOLATE MAIS BOMBADO DO YOUTUBE | Receitas Internéticas",
-            "url": "https://www.youtube.com/watch?v=mp-StM0f4J8"
-        },
-        {
-            "id": 8,
-            "categoriaId": 2,
-            "titulo": "VOCÊ NUNCA MAIS VAI ERRAR NUMA MOUSSE DE CHOCOLATE",
-            "url": "https://www.youtube.com/watch?v=uFFJ0k0t77s"
-        },
-        {
-            "id": 9,
-            "categoriaId": 2,
-            "titulo": "Feijão tropeiro | Rodrigo Hilbert | Tempero de Família",
-            "url": "https://www.youtube.com/watch?v=c9HUne_dk3E"
-        },
-        {
-            "id": 10,
-            "categoriaId": 3,
-            "titulo": "Alta Frequencia (Frequency) - Trailer Legendado",
-            "url": "https://www.youtube.com/watch?v=dYAbP3xUtd0"
-        },
-        {
-            "id": 11,
-            "categoriaId": 3,
-            "titulo": "O conde de Monte Cristo trailer legendado pt br",
-            "url": "https://www.youtube.com/watch?v=X9F6Ssb7GHo"
-        },
-        {
-            "id": 12,
-            "categoriaId": 3,
-            "titulo": "O Corpo (El Cuerpo) - Trailer Legendado em Português - BR",
-            "url": "https://www.youtube.com/watch?v=ZhH90Eqhtbk"
-        },
-        {
-            "id": 13,
-            "categoriaId": 3,
-            "titulo": "Um Contratempo (Contratiempo) - Trailer - Legendado",
-            "url": "https://www.youtube.com/watch?v=4DTjlmNYMEo"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Tecnologia",
+      "cor": "#6bd1ff",
+      "link_extra": {
+        "text": "Formação de front-end na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Gastronomia",
+      "cor": "#00c86f"
+    },
+    {
+      "id": 3,
+      "nome": "Filmes",
+      "titulo": "Filmes",
+      "cor": "orange"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Programar Mais Rápido e Ser Mais Produtivo no Visual Studio Code (VSCode)",
+      "url": "https://www.youtube.com/watch?v=FCC2GbStmfc"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Design UX/UI, Home Office, Dev em Cidade Pequena, Portfólio, Insegurança | #PR 11",
+      "url": "https://www.youtube.com/watch?v=RlK8nu_YErc"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "TypeScript com NodeJS do jeito certo! | Diego Fernandes",
+      "url": "https://www.youtube.com/watch?v=aTf8QTjw4RE"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Airflow 2.0: What to expect?",
+      "url": "https://www.youtube.com/watch?v=FLlO3QTIrUI"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Data Science: Introdução a Ciência de Dados (Primeira aula prática programando em Python)",
+      "url": "https://www.youtube.com/watch?v=F608hzn_ygo"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "3 TIPOS DE FAROFAS PARA O NATAL",
+      "url": "https://www.youtube.com/watch?v=UtPQEytHmjY"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "O BOLO DE CHOCOLATE MAIS BOMBADO DO YOUTUBE | Receitas Internéticas",
+      "url": "https://www.youtube.com/watch?v=mp-StM0f4J8"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "VOCÊ NUNCA MAIS VAI ERRAR NUMA MOUSSE DE CHOCOLATE",
+      "url": "https://www.youtube.com/watch?v=uFFJ0k0t77s"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Feijão tropeiro | Rodrigo Hilbert | Tempero de Família",
+      "url": "https://www.youtube.com/watch?v=c9HUne_dk3E"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "Alta Frequencia (Frequency) - Trailer Legendado",
+      "url": "https://www.youtube.com/watch?v=dYAbP3xUtd0"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "O conde de Monte Cristo trailer legendado pt br",
+      "url": "https://www.youtube.com/watch?v=X9F6Ssb7GHo"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "O Corpo (El Cuerpo) - Trailer Legendado em Português - BR",
+      "url": "https://www.youtube.com/watch?v=ZhH90Eqhtbk"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Um Contratempo (Contratiempo) - Trailer - Legendado",
+      "url": "https://www.youtube.com/watch?v=4DTjlmNYMEo"
+    },
+    {
+      "titulo": "Título padrão",
+      "url": "https://www.youtube.com/watch?v=Lf3ZV0UsnEo",
+      "categoriaId": 1,
+      "id": 14
+    },
+    {
+      "titulo": "Frango à caçadora com macarrão e uvas verdes | Claude Troisgros | Que marravilha!",
+      "url": "https://www.youtube.com/watch?v=T7nPD8GJFfw",
+      "categoriaId": {
+        "id": 2,
+        "titulo": "Gastronomia",
+        "cor": "#00c86f"
+      },
+      "id": 15
+    },
+    {
+      "titulo": "MCDONALD`S MAIS ANTIGO DO MUNDO, FRANGO FRITO E MAIS FAST FOOD | Viagem Califórnia | Mohamad Hindi",
+      "url": "https://www.youtube.com/watch?v=p8Oj55ZahLA",
+      "categoriaId": 2,
+      "id": 16
+    }
+  ]
 }
