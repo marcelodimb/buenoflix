@@ -121,6 +121,36 @@
       "url": "https://www.youtube.com/watch?v=p8Oj55ZahLA",
       "categoriaId": 2,
       "id": 16
+    },
+    {
+      "titulo": "Learn React JS - Full Course for Beginners - Tutorial 2019",
+      "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+      "categoriaId": 1,
+      "id": 17
+    },
+    {
+      "titulo": "Escarola refogada: veja técnica que pode ser usada com outras verduras | Rita Lobo | Cozinha Prática",
+      "url": "https://www.youtube.com/watch?v=4SJ_BW7wNNE&pbjreload=101",
+      "categoriaId": 2,
+      "id": 18
+    },
+    {
+      "titulo": "BROWNIE DE CHOCOLATE PRESTÍGIO | ASMR",
+      "url": "https://www.youtube.com/watch?v=TuCEmJmGaNY&list=PLYHoqTjX7zMot3CrP44tVisLtObwAceFw",
+      "categoriaId": 2,
+      "id": 19
+    },
+    {
+      "titulo": "Milagre na Cela 7 - Trailer legendado",
+      "url": "https://www.youtube.com/watch?v=kipVc36vCTI",
+      "categoriaId": 3,
+      "id": 20
+    },
+    {
+      "titulo": "12 Dicas Rápidas para usar o VS Code como Profissional // Mão no Código #27",
+      "url": "https://www.youtube.com/watch?v=ODc-55gm_Mc",
+      "categoriaId": 1,
+      "id": 21
     }
   ]
 }

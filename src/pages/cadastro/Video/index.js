@@ -10,6 +10,7 @@ import categoriasRepository from '../../../repositories/categorias';
 const CadastroVideo = () => {
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
+  const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
     titulo: '',
     url: '',
@@ -31,9 +32,9 @@ const CadastroVideo = () => {
       <form onSubmit={(event) => {
         event.preventDefault();
 
-        const categoriaEscolhida = categorias.find((categoria) => (
-          categoria.titulo === values.categoria
-        ));
+        const categoriaEscolhida = categorias.find((categoria) => {
+          return categoria.titulo === values.categoria;
+        });
 
         videosRepository.create({
           titulo: values.titulo,
@@ -64,12 +65,7 @@ const CadastroVideo = () => {
           name="categoria"
           value={values.categoria}
           onChange={handleChange}
-          suggestions={
-            [
-              'Tecnologia',
-              'Gastronomia',
-            ]
-          }
+          suggestions={categoryTitles}
         />
 
         <Button type="submit">
